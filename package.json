@@ -1,0 +1,23 @@
+{
+  "name": "demo-public-npm-package",
+  "version": "1.0.0",
+  "description": "help public npm package to share your code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linuxpizi/demo-public-npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "package"
+  ],
+  "author": "tangsong0202@gmai.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Linuxpizi/demo-public-npm-package/issues"
+  },
+  "homepage": "https://github.com/Linuxpizi/demo-public-npm-package#readme"
+}
