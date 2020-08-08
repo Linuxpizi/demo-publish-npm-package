@@ -1,10 +1,11 @@
 {
   "name": "demo-publish-npm-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "help publish npm package to share your code",
   "main": "index.js",
   "scripts": {
     "storybook": "start-storybook",
+    "dev": "webpack-dev-server --config webpack.config.js --progress --profile --colors --watch-poll",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +16,7 @@
     "npm",
     "package"
   ],
-  "author": "tangsong0202@gmai.com",
+  "author": "tangsong0202@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Linuxpizi/demo-publish-npm-package/issues"
@@ -31,6 +32,16 @@
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-knobs": "^5.3.19",
     "@storybook/react": "^5.3.19",
-    "babel-loader": "^8.1.0"
+    "@vue/compiler-sfc": "^3.0.0-rc.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^16.0.0-alpha.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
