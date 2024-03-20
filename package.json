@@ -1,6 +1,6 @@
 {
   "name": "demo-publish-npm-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "help publish npm package to share your code",
   "main": "index.js",
   "scripts": {
