@@ -23,9 +23,10 @@
   },
   "homepage": "https://github.com/Linuxpizi/demo-publish-npm-package#readme",
   "dependencies": {
+    "pinia": "^2.1.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "vue": "^3.0.0-rc.5"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
